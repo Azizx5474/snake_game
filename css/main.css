@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+.container,
+.game {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+#snake_game {
+  border: 5px solid red;
+}
+
+h2 {
+  text-align: center;
+}
+.settings{
+  width: 350px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+button{
+  height: 60px;
+  width: 250px;
+  background-color: red;
+}
